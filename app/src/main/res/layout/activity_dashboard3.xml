@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- AppBar Block -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/app_color"
+        android:layout_height="150" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="@string/paragonu"
+            android:textColor="@color/white"
+            android:layout_margin="12dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <!-- Body Block -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <!-- Menu Block -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="3"
+            android:background="@color/gray"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+
+            <!-- First row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_height="0dp" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_pen" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/registration"
+                        android:textColor="@color/app_color" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_hat" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Classroom"
+                        android:textColor="@color/app_color"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_book" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/library"
+                        android:textColor="@color/app_color"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <!-- Second row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_height="0dp" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_email" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/email"
+                        android:textColor="@color/app_color"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_calendar" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/events"
+                        android:textColor="@color/app_color"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_more" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/more"
+                        android:textColor="@color/app_color"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/gray"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:layout_gravity="bottom|right"
+                android:layout_width="80dp"
+                android:src="@drawable/ic_transfers"
+                android:layout_height="80dp" />
+
+            <LinearLayout
+                android:paddingLeft="24dp"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textSize="22sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white_color"
+                    android:text="@string/quick_transfer" />
+
+                <TextView
+                    android:layout_marginRight="100dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white_color"
+                    android:text="@string/quick_transfer_description" />
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/light_red" >
+
+            <ImageView
+                android:layout_gravity="bottom|right"
+                android:layout_width="80dp"
+                android:src="@drawable/ic_payments"
+                android:layout_height="80dp" />
+
+            <LinearLayout
+                android:paddingLeft="24dp"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textSize="22sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white_color"
+                    android:text="@string/quick_payment" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white_color"
+                    android:text="@string/quick_payment_description" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

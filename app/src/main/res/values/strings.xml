@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">midterm</string>
+
+    <string name="paragonu">ParagonU</string>
+    <string name="registration">Registration</string>
+    <string name="classroom">Classroom</string>
+    <string name="library">Library</string>
+    <string name="email">Email</string>
+    <string name="events">Events</string>
+    <string name="more">More</string>
+
+
+</resources>
